@@ -1,0 +1,14 @@
+#Rhuzzy Wryll M. Ritumalta
+#8-Camia
+#Finding the Hypotenuse of a Right Triangle Using the Math Library
+import math  #loads built in module named "math"
+
+#Input stage:
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+
+#Calculation stage:
+c = math.sqrt(math.pow(a,2) + math.pow(b,2))  #square root of a squared plus b squared.
+
+#Output stage:
+print(f"The hypotenuse of the triangle using both sides a and b is {c:.2f}")
